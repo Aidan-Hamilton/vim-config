@@ -31,10 +31,10 @@ M.options = {
       copy_del = true, -- copy deleted text ( dd key ), visual and normal mode
       insert_nav = true, -- navigation in insertmode
       window_nav = true,
-      terminal_numbers = false,
+      terminal_numbers = true,
 
       -- updater
-      update_url = "https://github.com/NvChad/NvChad",
+      update_url = "",
       update_branch = "main",
    },
    terminal = {
@@ -70,7 +70,7 @@ M.ui = {
 
    -- Change terminal bg to nvim theme's bg color so it'll match well
    -- For Ex : if you have onedark set in nvchad, set onedark's bg color on your terminal
-   transparency = false,
+   transparency = true,
 }
 
 ---- PLUGIN OPTIONS ----
